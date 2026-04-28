@@ -1,4 +1,4 @@
-import { CadastroForm } from "./cadastro/cadastro-form";
+import { CadastroForm } from "../cadastro/cadastro-form";
 
 export default function CadastroPage() {
   return (
