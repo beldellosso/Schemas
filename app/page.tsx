@@ -1,6 +1,10 @@
+"use client";
+
 import { CadastroForm } from "./cadastro/cadastro-form";
+import { validarCadastro } from "../missao-2/validador";
 
 export default function CadastroPage() {
+  console.log(validarCadastro({ nomeCompleto: "Re", email: "erro" }));
   return (
     <main className="min-h-screen bg-gray-100 flex items-center justify-center p-6">
       <div className="w-full max-w-lg bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
